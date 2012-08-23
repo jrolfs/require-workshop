@@ -3,17 +3,17 @@
 
 define(
     [
-        'text!templates/AppView.tpl',
-        'workshop/model/AppModel',
+        // TODO: plugin dependency
+        // TODO: dependencies
 
         // Globals
-        'handlebars'
+        // TODO: global dependencies
     ],
 
     function (template, appModel) {
         'use strict';
 
-        var tpl = Handlebars.compile(template);
+        // TODO: compile template
         
         var AppView = Backbone.View.extend({
             
@@ -41,7 +41,7 @@ define(
             //
 
             render: function () {
-                this.$el.html(tpl());
+                // TODO: render template
 
                 return this;
             },

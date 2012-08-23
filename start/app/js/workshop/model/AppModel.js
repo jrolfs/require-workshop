@@ -4,7 +4,7 @@
 define(
     [
         // Globals
-        'backbone'
+        // TODO: global dependencies
     ],
 
     function () {
@@ -23,6 +23,6 @@ define(
         });
 
         // Return instance of AppModel, effectively creating a singleton
-        return new AppModel();
+        // TODO: return instance of module content
     }
 );

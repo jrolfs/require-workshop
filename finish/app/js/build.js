@@ -4,7 +4,6 @@
     dir: '../../build',
     mainConfigFile: 'main.js',
     wrap: true,
-    templatePathPrefix: 'app/',
     
     paths: {
         'almond': '../../node_modules/almond/almond',

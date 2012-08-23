@@ -24,8 +24,6 @@ define(
             },
 
             initialize: function () {
-                appModel.on('change:authenticated', this.onAuthenticated, this);
-
                 new AppView().setElement(document.body).render();
 
                 Backbone.history.start();

@@ -5,7 +5,7 @@ define(
     [
 
         // Globals
-        'backbone'
+        // TODO: global dependencies
     ],
 
     /**
